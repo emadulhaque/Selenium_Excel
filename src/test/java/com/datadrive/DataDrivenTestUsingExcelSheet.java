@@ -81,7 +81,7 @@ public class DataDrivenTestUsingExcelSheet {
 		// ExcelUtil util=new
 		// ExcelUtil(".\\src\\test\\resources\\TestData_Excel\\TEstData.xlsx");
 		ExcelUtil util = new ExcelUtil(
-				System.getProperty("user.dir") + "\\src\\test\\resources\\TestData_Excel\\TEstData.xlsx");
+		System.getProperty("user.dir") + "\\src\\test\\resources\\TestData_Excel\\TEstData.xlsx");
 		int totalRows = util.getRowCount("Sheet1");
 		int totalCells = util.getCellCount("Sheet1", 1);
 
